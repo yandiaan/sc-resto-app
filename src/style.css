@@ -1,0 +1,82 @@
+.logo {
+    color: orange;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 25px;
+    background-color: antiquewhite;
+}
+
+.nav_link {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.hero {
+    display: flex;
+    background-color: #ffffff;    
+    min-height: 85vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg");
+}
+
+.hero button {
+    background: rgb(0, 105, 105);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.resto_card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 25%;
+    padding: 15px 25px;
+}
+
+.resto_title {
+    text-align: center;
+}
+
+.resto_container {
+    padding: 25px;
+}
+
+.resto_container img {
+    border-radius: 25px;
+}
+
+.resto_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.resto_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.resto_info span {
+    font-weight: bold;
+}
+
+.resto_info small {
+    color: gold;
+    font-weight: bolder;
+    font-size: 18px;
+}
